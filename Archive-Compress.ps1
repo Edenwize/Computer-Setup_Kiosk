@@ -7,7 +7,8 @@
 # 7zip (and almost all other archiving programs that I know of [MS-Zip, tar...]) lacks being able to
 # archive links (soft links, hard links, and junctions): MS-Zip fails to do them; .7z fails to do
 # them AND junctions get copied as directories (which can make for LARGE archives); 7-zip's WIM works
-# some with symbolic links but can have extraction problems (junctions are created as a blank file, and hard-links are copied); and tar only works on a Linux-like filesystem. Using `dism.exe` works and
+# some with symbolic links but can have extraction problems (junctions are created as a blank file, 
+# and hard-links are copied); and tar only works on a Linux-like filesystem. Using `dism.exe` works and
 # is a nice container solution, however it does require administrative rights and I lack knowing
 # if it works good with lists (made more for disk copies). 'wimlib' works and can be used be a regular
 # user but I have yet to find out how to do it with lists. In short, links are best removed from
