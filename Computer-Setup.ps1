@@ -5,7 +5,7 @@
 
 ## Variables for script.
 #
-$env:DSP_BRT              = "85"                                    # Display Brightness
+$env:DSP_BRT              = "75"                                    # Display Brightness
 $env:MSE_SNS              = "5"                                     # Mouse Sensitivity
 $env:HOME                 = "$env:APPDATA\.config"                  # Home dir for Linux-apps
 $env:SCOOP                = "$env:USERPROFILE\Program-Manager"      # Program-Manager install dir.
