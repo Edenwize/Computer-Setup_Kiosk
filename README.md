@@ -1,11 +1,15 @@
-Many Computer Kiosks reset daily (i.e. lab computers) but allow some customization. These scripts setup some basic options and application environment (program manager and archive creation). 
+# Computer Kiosk Setup
 
-These scripts require PowerShell to run. The easy way for me to start PowerShell is by typing in the search box (*Type here to search*):
+Scripts to automate settings, install Program-Manager, it's Programs, and Extract/Compress them.
+
+## Explanation
+
+Many Computer Kiosks reset daily (i.e. lab computers) but allow some customization. These scripts require PowerShell to run. The easy way for me to start PowerShell is by typing in the search box (*Type here to search*):
 
     conhost powershell  # or
     terminal
 
-Then download the script to download the other scripts :):
+Then download the script that downloads the other scripts :):
 
     curl.exe https://bit.ly/cskdo -Lo CSK-Download.ps1
 
@@ -20,7 +24,7 @@ The script-names should describe their basic functionality. Be sure to look thro
     .\Computer-Setup.ps1
     .\wt-start.ps1
 
-# Program-Manager: Commands used regularly
+## Program-Manager: Commands used regularly
 
 I use a handy Program-Manager called [Scoop](https://scoop.sh/):
 
