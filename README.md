@@ -24,12 +24,12 @@ The script-names should describe their basic functionality. Be sure to look thro
     .\Computer-Setup.ps1
     .\wt-start.ps1
 
-## Program-Manager: Commands used regularly
+## Program-Manager
 
-I use a handy Program-Manager called [Scoop](https://scoop.sh/) ([Usage Guide](https://github.com/ScoopInstaller/Scoop/wiki)):
+I use a handy Program-Manager called [Scoop](https://scoop.sh/). Commands used regularly ([Usage Guide](https://github.com/ScoopInstaller/Scoop/wiki)):
 
-    scoop search _____                          # I usually use online version.
-    scoop install _______
+    scoop search  <program>                     # I usually use online version.
+    scoop install <program>
     scoop list                                  # Applications list that are installed.
     scoop update && scoop status                # Applications list that are updates.
     scoop update --all
