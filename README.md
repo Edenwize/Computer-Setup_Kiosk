@@ -30,7 +30,8 @@ I use a handy Program-Manager called [Scoop](https://scoop.sh/) ([Usage Guide](h
 
     scoop search _____                          # I usually use online version.
     scoop install _______
-    scoop update && scoop status                # List show of updates.
+    scoop list                                  # Applications list that are installed.
+    scoop update && scoop status                # Applications list that are updates.
     scoop update --all
     scoop cleanup --all ; scoop cache rm --all  # Apps rm prev-ver; rm instllrs..
 
