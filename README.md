@@ -26,8 +26,10 @@ The script-names should describe their basic functionality. Be sure to look thro
 
 ## Program-Manager: Commands used regularly
 
-I use a handy Program-Manager called [Scoop](https://scoop.sh/):
+I use a handy Program-Manager called [Scoop](https://scoop.sh/) ([Usage Guide](https://github.com/ScoopInstaller/Scoop/wiki)):
 
+    scoop search _____                          # I usually use online version.
+    scoop install _______
     scoop update && scoop status                # List show of updates.
     scoop update --all
     scoop cleanup --all ; scoop cache rm --all  # Apps rm prev-ver; rm instllrs..
