@@ -6,7 +6,7 @@ Scripts to automate settings, install Program-Manager, it's Programs, and Extrac
 
 Many Computer Kiosks reset daily (i.e. lab computers) but allow some customization. These scripts require PowerShell to run. The easy way for me to start PowerShell is by typing in the search box (*Type here to search*):
 
-    conhost powershell  # or
+    # conhost powershell  # or
     terminal
 
 Then download the script that downloads the other scripts :):
