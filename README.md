@@ -1,10 +1,8 @@
 # Computer Kiosk Setup
 
-Scripts to automate settings, install Program-Manager, it's Programs, and Extract/Compress them.
+Many Computer Kiosks reset daily (i.e. lab computers) but allow some customization. These scripts require PowerShell to run. These scripts automate: setting certain settings, unpacking an archive, and Extract/Compress all of this to upload to cloud storage.
 
-## Explanation
-
-Many Computer Kiosks reset daily (i.e. lab computers) but allow some customization. These scripts require PowerShell to run. The easy way for me to start PowerShell is by typing in the search box (*Type here to search*):
+To start PowerShell typing in the search box (*Type here to search*):
 
     # conhost powershell  # or
     terminal
@@ -28,8 +26,9 @@ The script-names should describe their basic functionality. Be sure to look thro
 
 I use a handy Program-Manager called [Scoop](https://scoop.sh/). Commands used regularly ([Usage Guide](https://github.com/ScoopInstaller/Scoop/wiki)):
 
-    scoop search  <program>                     # I usually use online version.
-    scoop install <program>
+    scoop search    <program>                   # Search is better with the Websco version.
+    scoop install   <program>
+    scoop uninstall <program>
     scoop list                                  # Applications list that are installed.
     scoop update && scoop status                # Applications list that are updates.
     scoop update --all
@@ -38,4 +37,4 @@ I use a handy Program-Manager called [Scoop](https://scoop.sh/). Commands used r
 # Finish
 
     .\Archive-Compress.ps1
-    # Upload to cload (5-10 minutes)
+    # Archive upload to cloud (5-10 minutes)
