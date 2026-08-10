@@ -22,7 +22,7 @@ The script-names should describe their basic functionality. Be sure to look thro
     .\CSK-Download.ps1    ; `
     .\Archive-Extract.ps1 ; `
     .\Computer-Setup.ps1  ; `
-    .\wt-start.ps1        ; `
+    .\wt-start.ps1
 
 ## Program-Manager
 
