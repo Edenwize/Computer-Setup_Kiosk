@@ -20,9 +20,12 @@ The script-names should describe their basic functionality. Be sure to look thro
 
     .\CSK-Download.ps1
 
-Download your archive if created, setup some computer settings, and start the new terminal:
+Download an archive if one has one and extract it:
 
-    .\Archive-Extract.ps1 ; `
+    .\Archive-Extract.ps1
+
+Computer setup with some basic settings, start new terminal:
+
     .\Computer-Setup.ps1  ; `
     .\wt-start.ps1
 
