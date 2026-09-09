@@ -18,7 +18,10 @@ The Execution Policy may need to be enabled before running a script:
 
 The script-names should describe their basic functionality. Be sure to look through the scripts first to tailor them to your needs. The scripts are fairly-well commented:
 
-    .\CSK-Download.ps1    ; `
+    .\CSK-Download.ps1
+
+Download your archive if created, setup some computer settings, and start the new terminal:
+
     .\Archive-Extract.ps1 ; `
     .\Computer-Setup.ps1  ; `
     .\wt-start.ps1
