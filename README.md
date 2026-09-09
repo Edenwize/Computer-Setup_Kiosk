@@ -9,6 +9,7 @@ To start PowerShell typing in the search box (*Type here to search*):
 
 Then download the script that downloads the other scripts :):
 
+    cd $HOME\Downloads
     curl.exe https://bit.ly/cskdo -Lo CSK-Download.ps1
 
 The Execution Policy may need to be enabled before running a script:
