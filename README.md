@@ -23,6 +23,10 @@ Computer setup with some basic settings, start new terminal:
     .\Computer-Setup.ps1  ; `
     .\wt-start.ps1
 
+When finished, compress (so to be uploaded to the cloud):
+
+    .\Archive-Compress.ps1
+
 ## Program-Manager
 
 I use a handy Program-Manager called [Scoop](https://scoop.sh/). Commands used regularly ([Usage Guide](https://github.com/ScoopInstaller/Scoop/wiki)):
@@ -37,5 +41,4 @@ I use a handy Program-Manager called [Scoop](https://scoop.sh/). Commands used r
 
 # Finish
 
-    .\Archive-Compress.ps1
-    # Archive upload to cloud (5-10 minutes)
+
