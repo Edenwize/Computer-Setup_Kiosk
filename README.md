@@ -11,8 +11,7 @@ Then download the script that downloads the other scripts :), and run the script
 
     cd $HOME\Downloads
     #curl.exe https://bit.ly/cskdo -Lo CSK-Download.ps1
-    curl.exe https://raw.githubusercontent.com/Edenwize/Computer-Setup_Kiosk/refs/heads/main/CSK-Download.ps1 -Lo `
-      CSK-Download.ps1
+    curl.exe https://raw.githubusercontent.com/Edenwize/Computer-Setup_Kiosk/refs/heads/main/CSK-Download.ps1 -Lo CSK-Download.ps1
     Set-ExecutionPolicy Unrestricted CurrentUser     # ExPol may need enabled for script to run
     .\CSK-Download.ps1
 
