@@ -39,6 +39,4 @@ I use a handy Program-Manager called [Scoop](https://scoop.sh/). Commands used r
     scoop update --all
     scoop cleanup --all ; scoop cache rm --all  # Apps rm prev-ver; rm instllrs..
 
-# Finish
-
 
