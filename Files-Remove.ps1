@@ -15,7 +15,7 @@ if ( -not (Test-Path $FILE_INCS) ) {
 #
 Push-Location $env:USERPROFILE
 #
-$ANSWER = Read-Host "Files remove that were extracted from the Archive."
+$ANSWER = Read-Host "Files remove that were extracted from the Archive?"
 if ( $ANSWER -eq "y" -or $ANSWER -eq "Y") {
   $LIST_FILES = Get-Content $FILE_INCS
   foreach ( $file in $LIST_FILES ) {
