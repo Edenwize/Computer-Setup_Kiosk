@@ -37,6 +37,7 @@ $INCL_FILES = @(
   # ".vscode"
   # "WindowsTerminal.lnk"
   ".scrap"
+  ".ssh"
   "AppData\Roaming\.config"
   "AppData\Roaming\Microsoft\Windows\My Games\Neverball-dev"
   "AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Scoop Apps"
