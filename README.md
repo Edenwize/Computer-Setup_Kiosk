@@ -28,6 +28,10 @@ Archive compress (so one can upload it) when work is finished:
 
     .\Archive-Compress.ps1
 
+Files remove that were installed (if necessary: most systems reset the user environment after logout):
+
+    .\Files-Remove.ps1
+
 ## Program-Manager
 
 I use a handy Program-Manager called [Scoop](https://scoop.sh/). Commands used regularly ([Usage Guide](https://github.com/ScoopInstaller/Scoop/wiki)):
